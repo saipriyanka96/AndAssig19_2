@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+
+    <!-- Name Label -->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Email label -->
+    <TextView
+        android:id="@+id/vote_count"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#acacac" />
+
+    <!-- Mobile number label -->
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
+   <!--A layout that arranges other views either horizontally in a single column or vertically in a single row.
+    ID-Any View object may have an integer ID associated with it, to uniquely identify the View within the tree.                       When the application is compiled, this ID is referenced as an integer, but the ID is typically assigned in the layout XML file
+    as a string, in the id attribute.This is an XML attribute common to all View objects (defined by the View class) and you will use
+    it very often
+    wrap_content tells your view to size itself to the dimensions required by its content.
+    match_parent tells your view to become as big as its parent view group will allow.
+    TextSize will give size of the text-->
